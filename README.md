@@ -1,15 +1,17 @@
 # Scaling-raster-data
-Scaling (normalization) of raster data - QGIS script
+Scaling (standardized) of raster data - QGIS script
 
-Data are normalized with using standard deviation according to formula:
+Data are standardized with using standard deviation according to formula:
 
-![A_{i}=\frac{x_{i}-\bar{x}}{SD}] (https://latex.codecogs.com/gif.latex?A_%7Bi%7D%3D%5Cfrac%7Bx_%7Bi%7D-%5Cbar%7Bx%7D%7D%7BSD%7D)
+<img src="https://latex.codecogs.com/gif.latex?A_{i}=\frac{x_{i}-\bar{x}}{SD}" />
+
+where <img src="https://latex.codecogs.com/gif.latex?A_{i}" /> is standardized pixel, <img src="https://latex.codecogs.com/gif.latex?x_{i}" /> is value of pixel, <img src="https://latex.codecogs.com/gif.latex?\bar{x}" /> is arithmetic mean of values in the raster and SD is standard deviation. 
 
 ##Istallation
 You need QGIS, version 2.x and active Processing toolbox. Copy script files into the Scripts folder (see Processing/Options/Scripts/Scripts folder). It is also possible installing script from Processing tools panel: Scripts/Tools/Add script from file. The second way is easier however only script without help is installed.
 
 ## Donation
-If you are satisfied with this scriptr you can support future development
+If you are satisfied with this script you can support future development
 
 BTC: 1MbZRqjCvkDNbEy1iQfw3SiXyBrMSgW4Dt
 
